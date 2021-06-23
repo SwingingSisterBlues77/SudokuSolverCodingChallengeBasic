@@ -1,2 +1,4 @@
 # SudokuSolverCodingChallengeBasic
-This is a ASP.NET MVC C# Sudoku Puzzle Solver. 
+This is a ASP.NET MVC C# Sudoku Puzzle Solver.This is a really basic design as I was focused on the key operational components to make sure the application worked.
+
+The project is separated into different layers following the MVC design, so that the web application logic can be divided and the code is kept neat. The program allows the user to input their own values for the app to find the correct solution. The application will then check the values that user has entered, to ensure that the data does not violate the conditions of the program. If no conditions are violated for the cell, row, column and 9x9 grid, then the program moves to solve the puzzle. It will attempt to determine the possible values to each cell and will then cross-reference the potential values with the user submitted data to try to eliminate incorrect attempts. After the values have been determined the program will then populate the grid and return the view to the user with the solved puzzle displayed.
